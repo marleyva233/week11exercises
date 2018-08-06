@@ -1,0 +1,40 @@
+/*
+[0]GENERAL
+[1]MAIN
+*/
+
+
+/*[0]GENERAL*/
+body{
+	background-color: 
+	padding: 1%;
+}
+
+
+/*[1]MAIN*/
+
+#image{
+	max-width: 450px;
+	transition: 3s ease;
+}
+#imageDiv{
+	height:410px;
+}
+.fade{
+	opacity:0;
+}
+
+ul{
+	background-color: white;
+	width: 300px;
+	text-align: left;
+}
+
+#overlay {
+  position: fixed;
+  background-color: red;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
